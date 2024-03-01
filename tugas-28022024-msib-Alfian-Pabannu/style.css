@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.matakuliah {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matakuliah th,
+.matakuliah td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.matakuliah th {
+  background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-submit {
+  background-color: #0ea450;
+  margin-top: 20px;
+}
+.btn-submit:hover {
+  background-color: #2a5931;
+}
